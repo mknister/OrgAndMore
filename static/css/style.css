@@ -1,0 +1,201 @@
+body {
+    font-family: "Mercury Text G1 A","Mercury Text G1 B","Georgia","Times New Roman","Times",sans-serif;
+}
+
+.main {
+    background-color: #A9B6AF;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+#bg img {
+    width: 30%;
+}
+
+h2 {
+    font-size: 55px;
+    margin-top: 50%;
+    color: white;
+    text-align: right;
+    text-shadow: 2px 2px #9FA8A5;
+}
+
+
+
+#bm {
+    /*margin-top: 25%;*/
+    /*width: 70%;*/
+    /*vertical-align: bottom;*/
+    /*float: right;*/
+    width: 420px;
+}
+
+#boxes {
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+#logo {
+    margin-top: 10%;
+    width: 80%;
+    float: right;
+}
+
+#caption {
+   margin-left: 20%;
+    color: white;
+    text-shadow: 2px 2px #9FA8A5;
+    font-size: 16px;
+    margin-bottom: -5%;
+}
+
+#title {
+    margin-top:5%;
+    margin-left: 15%;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px #9FA8A5;
+}
+
+#name {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px #9FA8A5;
+    text-align: center;
+
+}
+
+#name em {
+    font-family: "Lucida Calligraphy";
+}
+
+.nav {
+    background-color: #9FA8A5;
+    padding-bottom: 0px !important;
+    border-bottom-color: black;
+}
+
+.active {
+    text-decoration: underline;
+}
+.nav-pills > li.active > a
+.nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #9FA8A5;
+    background-color: #9FA8A5;
+}
+
+.nav-pills > li > a, .nav-pills > li > a:focus {
+    color: white;
+    text-shadow: 1px 1px #9FA8A5;
+
+}
+
+.nav-pills > li > a:hover {
+    color:black;
+}
+
+#sections {
+    position: relative;
+    display: inline-block;
+    width: 338px;
+    top: 0px;
+    z-index: 90;
+    scroll-snap-type: mandatory;
+    scroll-snap-destination: 0 100%;
+}
+
+.step {
+    margin-top: 20px;
+    height: 530px;
+    overflow:auto;
+    width:338px;
+    background-color: lightgrey;
+    opacity: .7;
+    border-radius: 25px;
+
+}
+
+.step-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width:338px;
+    background-color: darkgray;
+    opacity: .95;
+    border-radius: 25px;
+}
+
+#page-wrap {
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+    padding: 20px;
+    background: #9FA8A5;
+    /*-moz-box-shadow: 0 0 20px black;*/
+    /*-webkit-box-shadow: 0 0 20px black;*/
+    /*box-shadow: 0 0 20px black;*/
+    opacity: .7;
+
+}
+
+h1 {
+    text-align: center;
+    opacity: 1;
+}
+
+#team {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#jody {
+    width: 60%;
+    float:right;
+}
+
+#karin {
+    width: 60%;
+    float: left;
+}
+
+#about-us {
+    background-color:#A9B6AF;
+    background-image: radial-gradient(#fff 10%, transparent 10%),
+    radial-gradient(#fff 10%, transparent 10%);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+
+#about-h1 {
+    font-size: 60px;
+    margin: 15px;
+}
+
+#about-h2 {
+    text-align: left;
+}
+
+#about-p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#about-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    background-color: white;
+}
+
+.space {
+    margin: 50px;
+}

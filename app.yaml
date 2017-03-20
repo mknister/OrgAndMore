@@ -1,0 +1,31 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+# site root
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+
+- url: /(.*)\.html$
+  static_files: static/\1.html
+  upload: static/*\.html$
+
+- url: /(.*)\.css$
+  static_files: static/\1.css
+  upload: static/*\.css$
+
+- url: /(.*)\.js$
+  static_files: static/\1.js
+  upload: static/*\.js$
+
+- url: /(.*)\.img$
+  static_files: static/\1.img
+  upload: static/*\.(bmp|gif|ico|jpeg|jpg|png)$
+
+# Handle nearly every other file by just serving it.
+- url: /(.+)
+  static_files: static/\1
+  upload: static/(.*)
